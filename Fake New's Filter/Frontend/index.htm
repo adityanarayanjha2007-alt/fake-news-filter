@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fake News Detector</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="animated-bg">
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+  </div>
+
+  <div class="main-container">
+    <div class="content">
+      <div class="header">
+        <div class="logo">🔍</div>
+        <h1>Fake News Detector</h1>
+        <p class="subtitle">AI-powered credibility analysis</p>
+      </div>
+
+      <div class="input-section">
+        <textarea 
+          id="newsText" 
+          placeholder="Paste your news article or text here to analyze its authenticity..."
+        ></textarea>
+        
+        <div class="button-container">
+          <button class="analyze-btn" onclick="checkNews()" id="analyzeBtn">Scan</button>
+          <button class="clear-btn" onclick="clearAll()">Clear</button>
+        </div>
+      </div>
+
+      <div class="result-section" id="resultSection">
+        <div class="loader" id="loader">
+          <div class="spinner"></div>
+          <p class="loader-text">Analyzing text...</p>
+        </div>
+
+        <div class="result-content" id="resultContent" style="display: none;">
+          <div class="verdict-icon" id="verdictIcon"></div>
+          <div class="verdict" id="verdict"></div>
+          <div class="confidence-label">Confidence Level</div>
+          <div class="meter-container">
+            <div class="meter-fill" id="meterFill"></div>
+          </div>
+          <div class="percentage" id="percentage"></div>
+        </div>
+
+        <div class="error-message" id="errorMessage" style="display: none;"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Built with 💜 by <a href="#" target="_blank">0xPrince</a>
+  </footer>
+
+<script src="script.js"></script>
+ 
+</body>
+</html>
