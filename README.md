@@ -95,9 +95,9 @@ Fake New’s Filter/
     ```bash
     pip install -r requirements.txt
     ```
-4. Train Model :  
+4. Train Model :   0 = Fake News     1= Real
     ```bash
-   cd /Users/youePath/Desktop/Fake\ New\'s\ Filter/model && python3 train.py
+   cd /Users/yourPath/Desktop/Fake\ New\'s\ Filter/model && python3 train.py
 
     ```
 5.  Start Backend API :  
