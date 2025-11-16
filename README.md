@@ -97,12 +97,14 @@ Fake New’s Filter/
     ```
 4. Train Model :   0 = Fake News     1= Real
     ```bash
-   cd /Users/yourPath/Desktop/Fake\ New\'s\ Filter/model && python3 train.py
+   cd ~/Desktop/"Fake New's Filter"/model && python3 train.py
+
 
     ```
 5.  Start Backend API :  
     ```bash
     cd ~/Desktop/"Fake New's Filter"/api && uvicorn main:app --reload
+
     ```
 
 6. Open Frontend :
