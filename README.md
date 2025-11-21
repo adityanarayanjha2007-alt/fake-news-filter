@@ -126,5 +126,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 <br>
 <br>
-<div align="center"> Made with 💌  by Prince | © 2025 Cybersecurity.
+<div align="center"> Made with 💌  by Aditya | © 2025 Cybersecurity.
   </div>
