@@ -15,7 +15,8 @@
 Fake News' Filter is an AI/ML-powered news verification system that predicts whether a given news article is Real or Fake.
 It uses NLP (Natural Language Processing), ML classification, and probability scoring to ensure credible results.
 
-Key highlights:  
+Key highlights: 
+- Adaptive training pipeline that learns directly from your data.
 - AI-powered real/fake news detection.  
 - Fast predictions with machine-learning model.  
 - Clear output: Real News ✅ / Fake News ❌.  
@@ -65,7 +66,7 @@ Fake New’s Filter/
 ---
 
 ## ✨ Features
-
+- Adaptive training pipeline that learns directly from your data.
 - Detects whether news is fake or real using AI.  
 - Shows a confidence score for each news item.  
 - Works with text or news links.  
